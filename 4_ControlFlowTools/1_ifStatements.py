@@ -5,6 +5,8 @@ def checkSign(n):
         print("Zero")
     elif n > 0:
         print("Positive")
+    else:
+        print("Infinity")
 
 
 checkSign(10)
